@@ -1,0 +1,51 @@
+.DS_Store
+
+# CodeIgniter cache
+application/cache/*
+!application/cache/index.html
+
+# CodeIgniter logs
+application/logs/*
+!application/logs/index.html
+
+# Allow .htaccess files
+!application/*/.htaccess
+
+# Composer
+composer.lock
+
+# Test database
+tests/mocks/database/ci_test.sqlite
+
+# User guide build files
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# Vendor
+/vendor/
+
+# IDE Files
+/nbproject/
+.idea/*
+
+# Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Tests
+/tests/tests/
+/tests/results/
+
+# Database credentials
+application/config/database.php
+
+# Large video files
+assets/videos/*.mp4
+
+# Uploaded/runtime files
+uploads/
